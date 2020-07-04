@@ -276,6 +276,7 @@ GameObject:
   - component: {fileID: 834112964}
   - component: {fileID: 834112963}
   - component: {fileID: 834112967}
+  - component: {fileID: 834112968}
   m_Layer: 0
   m_Name: _Sun
   m_TagString: Untagged
@@ -368,7 +369,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 834112966}
-  speed: 5
+  speed: 10
+--- !u!114 &834112968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834112962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452fc6c33c1dac44c960ed26cc7f43e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1580031225}
+  speed: 40
 --- !u!1 &1578030321
 GameObject:
   m_ObjectHideFlags: 0
